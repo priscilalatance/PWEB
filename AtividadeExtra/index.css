@@ -1,0 +1,41 @@
+div 
+{
+  width: 420px;
+  height: 420px;
+}
+
+@media screen and (min-width: 420px) {
+	div{
+		background-color: rgb(37, 103, 179);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	div{
+		background-color: orange;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	div{
+		background-color: rgb(197, 15, 158);
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	div{
+		background-color: rgb(219, 80, 80);
+	}
+}
+
+@media screen and (min-width: 1366px){
+	div{
+		background-color: rgb(185, 74, 185);
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	div{
+		background-color: rgb(204, 204, 19);
+	}
+}
