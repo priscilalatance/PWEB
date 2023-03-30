@@ -8,17 +8,26 @@ div
 	div{
 		background-color: rgb(37, 103, 179);
 	}
+	h1::after{
+		content: "Cor cinza";
+	}
 }
 
 @media screen and (min-width: 768px) {
 	div{
 		background-color: orange;
 	}
+	h1::after{
+		content: "Cor laranja";
+	}	
 }
 
 @media screen and (min-width: 1024px) {
 	div{
 		background-color: rgb(197, 15, 158);
+	}
+	h1::after{
+		content: "Cor Rosa";
 	}
 }
 
@@ -26,16 +35,25 @@ div
 	div{
 		background-color: rgb(219, 80, 80);
 	}
+	h1::after{
+		content: "Cor Vermelha";
+	}	
 }
 
 @media screen and (min-width: 1366px){
 	div{
 		background-color: rgb(185, 74, 185);
 	}
+	h1::after{
+		content: "Cor Azul";
+	}	
 }
 
 @media screen and (min-width: 1920px) {
 	div{
 		background-color: rgb(204, 204, 19);
 	}
+	h1::after{
+		content: "Cor Amarelo";
+	}	
 }
