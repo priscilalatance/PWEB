@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section>
+        <form method="post" id="form">
+            <p>Insira os números a seguir:</p>
+
+            <div class="numero">
+                <input type="number" id="numero1" placeholder="Primeiro" name="numero">
+            </div>
+            
+            <div class="numero">
+                <input type="number" id="numero2" placeholder="Segundo" name="numero">
+            </div>
+
+            <div class="numero">
+                <input type="number" id="numero3" placeholder="Terceiro" name="numero"> 
+            </div>
+
+            <input type="button" class="botao" onclick="maiorNumero()" value="Valor Maior">
+            <input type="button" class="botao" onclick="ordenacaoCrescente()" value="Crescente">
+
+        </form>
+    </section>
+</body>
+</html>
